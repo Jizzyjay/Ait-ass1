@@ -28,26 +28,48 @@
     </section>
     
     <section class="form">
-        <div id="contact">
-        <h2><b>Get in Touch </b></h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formsubmit.co/ekunolajohn@gmail.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="name" name="_replyto" placeholder="Your Name" required>
-                <input type="email" name="_replyto" placeholder="Your Email" required>
+        <div class="container">
+            <h2 class="header"> Calculator</h2>
+            <input type="text" class="results">
 
-                    <select name="Priority" id="gender">
-                        <option value="select">Priority</option>
-                        <option value="male">Important</option>
-                        <option value="female">Very important</option>
-                        <option value="others">Not important</option>
-                    </select>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
+            <table>
+                <tr>
+                    <td>  <button id="clear">C</button></td>
+                    <td>  <button id="operator">(</button></td>
+                    <td>  <button id="operator">)</button></td>
+                    <td>  <button id="operator">/</button></td>
+                </tr>
+                <tr>
+                    <td>  <button class="digits" value="7" >7</button></td>
+                    <td>  <button class="digits" value="8" >8</button></td>
+                    <td>  <button class="digits" value="9" >9</button></td>
+                    <td>  <button class="operator" value="*" >*</button></td>
+                </tr>
+
+                <tr>
+                    <td>  <button class="digits" value="4" >4</button></td>
+                    <td>  <button class="digits" value="5" >5</button></td>
+                    <td>  <button class="digits" value="6" >6</button></td>
+                    <td>  <button class="operator" value="-" >-</button></td>
+                </tr>
+
+                <tr>
+                    <td>  <button class="digits" value="1" >1</button></td>
+                    <td>  <button class="digits" value="2" >2</button></td>
+                    <td>  <button class="digits" value="3" >3</button></td>
+                    <td>  <button class="operator" value="+" >+</button></td>
+                </tr>
+
+                <tr>
+                    <td>  <button class="operator" value="%" >%</button></td>
+                    <td>  <button class="digits" value="0" >0</button></td>
+                    <td>  <button class="operator" value="." >.</button></td>
+                    <td>  <button class="operator" value="=" >=</button></td>
+
+                </tr>
+</table>
+
+</div>
     </section>
     
     <footer>
